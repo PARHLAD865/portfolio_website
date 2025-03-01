@@ -1,0 +1,138 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+           
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+        nav .h {
+            color: white;
+            text-decoration: none;
+            /* padding: 15px 20px; */
+            margin-right: 160px;
+            font-size: 27px;
+            margin-top: 10px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        nav .h:hover {
+            background: #555;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hero {
+            /* background: linear-gradient(to right, #4caf50, #81c784); */
+            background-color: black;
+            color: white;
+            width: 100%;
+            height:300px;
+            /* padding: 100px 20px; */
+            display: flex;
+
+        }
+        .first-hero{
+           width: 50%;
+           margin: 100px;
+           font-size: 30px;
+        }
+        .first-hero .pra{
+            color: purple;
+            font-size: 30px;
+        }
+        .first-hero .prah{
+            
+            font-size: 30px;
+        }
+
+        #element{
+            color: purple;
+           font-size: 30px;
+        }
+        .second-hero {
+            width: 50%;
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+            margin-top: 40px;
+            
+            
+        }
+        .second-hero img {
+          
+            border-radius: 50px;
+            height: 200px;
+            width: 200px;
+            margin-left: 30px;
+            
+        }
+        .hero h1{
+            font-size: 20px;
+        }
+        .skills, .education, .contact {
+            background: #f4f4f4;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 300px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav {
+                flex-wrap: wrap;
+            }
+
+            nav a {
+                flex: 1 1 100%;
+                text-align: center;
+            }
+        }
+    
